@@ -131,8 +131,7 @@ public class GameControllerScript : MonoBehaviour {
     public void showMessage(string message) {
 
 
-        //Debug.Log ("Time " + (Time.time - messageTime));
-        //        if(Time.time - messageTime > )
+    
 
         float timeDiff = Time.time - messageTime;
 

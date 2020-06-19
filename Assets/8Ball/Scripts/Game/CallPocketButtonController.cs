@@ -16,10 +16,7 @@ public class CallPocketButtonController : MonoBehaviour {
 
     }
 
-    /// <summary>
-    /// OnMouseDown is called when the user has pressed the mouse button while
-    /// over the GUIElement or Collider.
-    /// </summary>
+   
     void OnMouseDown() {
         Debug.Log("Called " + potNumber + " pocket");
         GameManager.Instance.calledPocketID = potNumber;
@@ -29,7 +26,6 @@ public class CallPocketButtonController : MonoBehaviour {
             callPockets[i].GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
             callPockets[i].SetActive(false);
         }
-       // if (!GameManager.Instance.offlineMode)
-           // PhotonNetwork.RaiseEvent(22, potNumber - 1, true, null);
+      
     }
 }

@@ -283,16 +283,19 @@ public class SpawnBallsScript : MonoBehaviour {
                 GameManager.Instance.gameControllerScript.showMessage(GameManager.Instance.faultMessage);
                 if (!GameManager.Instance.offlineMode)
                 { }
-                    //PhotonNetwork.RaiseEvent(13, GameManager.Instance.faultMessage, true, null);
+                    
+
             }
             if (!GameManager.Instance.offlineMode)
-               // PhotonNetwork.RaiseEvent(9, cueControllerScript.cue.transform.position, true, null);
+              
+
             GameManager.Instance.faultMessage = "";
         } else {
             Debug.Log("Raise 12");
             if (!GameManager.Instance.offlineMode)
             { }
-               // PhotonNetwork.RaiseEvent(12, cueControllerScript.cue.transform.position, true, null);
+              
+
         }
 
 

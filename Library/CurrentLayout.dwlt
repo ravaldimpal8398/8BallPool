@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 681, y: 498}
+  m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 117
+  controlID: 61
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,10 +137,10 @@ MonoBehaviour:
     y: 0
     width: 1086
     height: 635
-  m_MinSize: {x: 404, y: 498}
+  m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 118
+  controlID: 62
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,10 +162,10 @@ MonoBehaviour:
     y: 0
     width: 1086
     height: 361
-  m_MinSize: {x: 404, y: 224}
-  m_MaxSize: {x: 8004, y: 4024}
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 119
+  controlID: 31
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,8 +185,8 @@ MonoBehaviour:
     y: 0
     width: 210
     height: 361
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -382,9 +382,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 82330000
-      m_LastClickedID: 13186
-      m_ExpandedIDs: 24f7ffff5cfaffffdefbffff
+      m_SelectedIDs: 74280000
+      m_LastClickedID: 0
+      m_ExpandedIDs: defbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -440,9 +440,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: -1.4814816, z: -9}
+    m_Target: {x: -0.94173276, y: 0.20487535, z: 3.3489046}
     speed: 2
-    m_Value: {x: 0, y: -1.4814816, z: -9}
+    m_Value: {x: -0.94173276, y: 0.20487535, z: 3.3489046}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -470,13 +470,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.11448079, y: 0.23778847, z: 0.028252129, w: 0.9641331}
+    m_Target: {x: 0.14219786, y: 0.041869592, z: -0.006008287, w: 0.9889341}
     speed: 2
-    m_Value: {x: -0.11448079, y: 0.23778847, z: 0.028252129, w: 0.9641331}
+    m_Value: {x: 0.14219786, y: 0.041869592, z: -0.006008287, w: 0.9889341}
   m_Size:
-    m_Target: 7.1786475
+    m_Target: 38.282597
     speed: 2
-    m_Value: 7.1786475
+    m_Value: 38.282597
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -552,19 +552,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/8Ball/Scripts/Game
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 51
   m_LastFolders:
-  - Assets/8Ball/Scripts/Game
+  - Assets
   m_LastFoldersGridSize: 51
-  m_LastProjectPath: E:\GAME\p2\Pool\Billiard Multiplayer
+  m_LastProjectPath: C:\Users\Raval Dimpal\Documents\GitHub\8BallPool
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 36290000
-    m_LastClickedID: 10550
+    m_SelectedIDs: 82260000
+    m_LastClickedID: 9858
     m_ExpandedIDs: 000000008226000094260000e6260000d8270000162800003c2800007428000030290000da2d0000dc2d0000de2d0000e02d0000e22d0000e42d0000e62d0000e82d0000ea2d0000ec2d0000ee2d0000f02d0000f22d0000f42d0000f62d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
